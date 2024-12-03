@@ -16,6 +16,12 @@ Creating an architecture diagram for a system that incorporates various middlewa
         |
         v
 +-----------------------+
+| Express.js Middleware | <--- Request Parsing, Logging, Validation, Routing
+|  (Custom/Third-party) |
++-----------------------+
+        |
+        v
++-----------------------+
 | Authentication Middleware | <--- Auth, JWT Token Validation, OAuth
 +-----------------------+
         |
@@ -32,8 +38,8 @@ Creating an architecture diagram for a system that incorporates various middlewa
         |
         v
 +-----------------------+
-|  Business Logic Layer |
-|   (Application Code)  |
+| WebLogic Server       | <--- Business Logic, Java EE Applications,
+|  (Java EE Middleware) |      Session Management, JMS, EJB
 +-----------------------+
         |
         v
@@ -57,6 +63,7 @@ Creating an architecture diagram for a system that incorporates various middlewa
 +-----------------------+
 |  External Services    | <--- Third-party APIs, External Data Sources
 +-----------------------+
+
 ```
 
 ### **Explanation of Each Layer:**
