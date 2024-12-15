@@ -1,6 +1,3 @@
-Here’s a well-formatted and structured version of the markdown content you provided:
-
-```markdown
 ### 1. Arrays
 
 #### Basics
@@ -354,4 +351,3 @@ Here’s a well-formatted and structured version of the markdown content you pro
 202. Median Maintenance with Min-Max Heap Pair
 
 ---
-```
