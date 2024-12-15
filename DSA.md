@@ -1,9 +1,9 @@
 Here’s a well-formatted and structured version of the markdown content you provided:
 
 ```markdown
-### **1. Arrays**
+### 1. Arrays
 
-#### **Basics**
+#### Basics
 
 1. Set Matrix Zeros
 2. Sort an Array of 0's, 1's, and 2's
@@ -14,14 +14,14 @@ Here’s a well-formatted and structured version of the markdown content you pro
 7. Maximum Product Subarray
 8. Rotate Matrix (In-place Rotation of NxN Matrix)
 
-#### **Subarray Problems**
+#### Subarray Problems
 
 9. Kadanes Algorithm (Maximum Subarray Sum)
 10. Largest Subarray with K Sum
 11. Count Number of Subarrays with Given XOR K
 12. Maximum Product Subarray
 
-#### **Sorting and Searching**
+#### Sorting and Searching
 
 13. Search in a 2D Matrix
 14. Search Element in a Sorted and Rotated Array
@@ -32,7 +32,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 19. Next Permutation
 20. Merge K Sorted Arrays (Using Min-Heap)
 
-#### **Window/Two Pointer Techniques**
+#### Window/Two Pointer Techniques
 
 21. 2 Sum Problem
 22. 3 Sum Problem
@@ -43,16 +43,16 @@ Here’s a well-formatted and structured version of the markdown content you pro
 27. Trapping Rainwater
 28. Container with Most Water
 
-#### **Matrix Problems**
+#### Matrix Problems
 
 29. Grid Unique Paths
 30. Matrix Median
 
 ---
 
-### **2. Strings**
+### 2. Strings
 
-#### **Basics**
+#### Basics
 
 31. Reverse Words in a String
 32. Longest Palindromic Substring
@@ -62,14 +62,14 @@ Here’s a well-formatted and structured version of the markdown content you pro
 36. KMP Algorithm (LPS Array)
 37. Power Set (All Subsequences of a String/Array)
 
-#### **Palindrome Problems**
+#### Palindrome Problems
 
 38. Minimum Characters to Make Palindrome
 39. Check for Anagrams
 40. Palindromic Partitioning
 41. Longest Palindromic Subsequence
 
-#### **Pattern Matching**
+#### Pattern Matching
 
 42. Count and Say
 43. Compare Version Numbers
@@ -78,9 +78,9 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **3. Linked Lists**
+### 3. Linked Lists
 
-#### **Basics**
+#### Basics
 
 46. Reverse a LinkedList
 47. Find Middle of LinkedList
@@ -91,7 +91,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 52. Convert Binary Tree to Doubly Linked List
 53. Serialize and Deserialize a Linked List
 
-#### **Cycle and Advanced Problems**
+#### Cycle and Advanced Problems
 
 54. Detect a Cycle in LinkedList
 55. Find Starting Point of Cycle
@@ -104,9 +104,9 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **4. Stacks and Queues**
+### 4. Stacks and Queues
 
-#### **Stack Basics**
+#### Stack Basics
 
 62. Implement Stack Using Arrays
 63. Sort a Stack
@@ -116,7 +116,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 67. The Stock Span Problem (Stack-Based)
 68. Calculate Histogram Maximum Area (Stack Optimization)
 
-#### **Queue Basics**
+#### Queue Basics
 
 69. Implement Queue Using Arrays
 70. Implement Queue Using Stack
@@ -124,21 +124,21 @@ Here’s a well-formatted and structured version of the markdown content you pro
 72. Stock Span Problem
 73. Sliding Window Maximum
 
-#### **LRU and LFU Caches**
+#### LRU and LFU Caches
 
 74. LRU Cache
 75. LFU Cache
 
-#### **Other Stack/Queue Problems**
+#### Other Stack/Queue Problems
 
 76. The Celebrity Problem
 77. Implement Min Stack
 
 ---
 
-### **5. Binary Trees and BST**
+### 5. Binary Trees and BST
 
-#### **Tree Traversals**
+#### Tree Traversals
 
 78. Inorder Traversal
 79. Preorder Traversal
@@ -147,14 +147,14 @@ Here’s a well-formatted and structured version of the markdown content you pro
 82. Level Order Traversal
 83. Zig-Zag Traversal
 
-#### **Tree Views**
+#### Tree Views
 
 84. Left View of Binary Tree
 85. Top View of Binary Tree
 86. Bottom View of Binary Tree
 87. Vertical Order Traversal
 
-#### **Basic Tree Problems**
+#### Basic Tree Problems
 
 88. Root to Node Path in Binary Tree
 89. Diameter of Binary Tree
@@ -162,7 +162,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 91. Check if Binary Tree is Height-Balanced
 92. Maximum Path Sum in Binary Tree
 
-#### **Advanced Tree Problems**
+#### Advanced Tree Problems
 
 93. Symmetric Binary Tree
 94. Flatten Binary Tree to Linked List
@@ -173,7 +173,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 99. Construct Binary Tree from Preorder and Inorder Traversals
 100.  Construct Binary Tree from Postorder and Inorder Traversals
 
-#### **BST Problems**
+#### BST Problems
 
 101. Search Given Key in BST
 102. Find K-th Smallest/Largest Element in BST
@@ -191,26 +191,26 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **6. Graphs**
+### 6. Graphs
 
-#### **Graph Traversals**
+#### Graph Traversals
 
 114. DFS (Depth First Search)
 115. BFS (Breadth First Search)
 116. Number of Islands (Grid and Graph)
 117. Bipartite Graph Check (DFS + BFS Approaches)
 
-#### **Cycle Detection**
+#### Cycle Detection
 
 118. Detect Cycle in Undirected Graph (DFS/BFS)
 119. Detect Cycle in Directed Graph (DFS/BFS)
 120. Cycle Detection in Directed Graph (DFS Tarjan's Algorithm)
 
-#### **Topological Sort**
+#### Topological Sort
 
 121. Topological Sort (DFS and BFS)
 
-#### **Advanced Graph Problems**
+#### Advanced Graph Problems
 
 122. Strongly Connected Components (Kosaraju's Algorithm)
 123. Dijkstra Algorithm
@@ -226,7 +226,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **7. Greedy Algorithms**
+### 7. Greedy Algorithms
 
 133. N Meetings in One Room
 134. Minimum Number of Platforms Required
@@ -240,9 +240,9 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **8. Dynamic Programming**
+### 8. Dynamic Programming
 
-#### **1D DP**
+#### 1D DP
 
 142. Longest Increasing Subsequence
 143. Longest Common Subsequence
@@ -252,18 +252,18 @@ Here’s a well-formatted and structured version of the markdown content you pro
 147. Rod Cutting Problem (DP-Based Optimization)
 148. Word Break Problem (All Possible Segmentations)
 
-#### **Grid-Based DP**
+#### Grid-Based DP
 
 149. Minimum Sum Path in Matrix
 
-#### **Partition Problems**
+#### Partition Problems
 
 150. Palindromic Partitioning (MCM Variation)
 151. Subset Sum
 152. Word Break Problem
 153. Coin Change Problem
 
-#### **MCM and Variations**
+#### MCM and Variations
 
 154. Matrix Chain Multiplication
 155. Egg Dropping Problem
@@ -272,23 +272,23 @@ Here’s a well-formatted and structured version of the markdown content you pro
 158. 0-1 Knapsack with Variants (Subset Sum Problem Dependencies)
 159. Egg Dropping Problem (Recursive + DP Optimization)
 
-#### **Advanced DP**
+#### Advanced DP
 
 160. Maximum Profit in Job Scheduling
 161. Longest Palindromic Subsequence
 
 ---
 
-### **9. Tries and Bit Manipulation**
+### 9. Tries and Bit Manipulation
 
-#### **Tries**
+#### Tries
 
 162. Implement Trie (Prefix Tree)
 163. Implement Trie-2
 164. Longest String with All Prefixes
 165. Trie-Based Word Lookup and Matching Extensions
 
-#### **Bit Manipulation**
+#### Bit Manipulation
 
 166. Maximum XOR of Two Numbers
 167. Maximum XOR with an Element from Array
@@ -296,7 +296,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **10. Heap/Priority Queue**
+### 10. Heap/Priority Queue
 
 169. K-th Largest Element
 170. Merge K Sorted Arrays
@@ -308,7 +308,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **11. Recursion and Backtracking**
+### 11. Recursion and Backtracking
 
 176. Subset Sums
 177. Combination Sum I and II
@@ -321,7 +321,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **12. Sliding Window and Two Pointer**
+### 12. Sliding Window and Two Pointer
 
 184. Longest Substring Without Repeating Characters
 185. Trapping Rainwater
@@ -329,7 +329,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **13. Miscellaneous**
+### 13. Miscellaneous
 
 187. N-th Root of an Integer
 188. Allocate Minimum Number of Pages
@@ -344,7 +344,7 @@ Here’s a well-formatted and structured version of the markdown content you pro
 
 ---
 
-### **Bonus/Additional Problems**
+### Bonus/Additional Problems
 
 197. Reverse Words in a String
 198. Palindrome Partitioning (Recursive + DP)
