@@ -93,9 +93,47 @@ WHERE department_id IN (SELECT id FROM departments WHERE location = 'NY');
 ### 3. Functions
 
 - String functions: CONCAT, SUBSTRING, UPPER, LOWER
-- Numeric functions: ROUND, CEIL, FLOOR
-- Date functions: DATEADD, DATEDIFF, CURRENT_DATE
-- Aggregate functions: COUNT, SUM, AVG, MAX, MIN
+  1. REGEXP/RLIKE: Pattern matching using regular expressions
+  ```sql
+  -- Basic REGEXP usage
+  SELECT column_name FROM table_name WHERE column_name REGEXP 'pattern';
+  
+  -- Common REGEXP patterns:
+  -- Find emails
+  SELECT email FROM users WHERE email REGEXP '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$';
+  
+  -- Find phone numbers (XXX-XXX-XXXX format)
+  SELECT phone FROM contacts WHERE phone REGEXP '^[0-9]{3}-[0-9]{3}-[0-9]{4}$';
+  
+  -- Words starting with 'A'
+  SELECT name FROM customers WHERE name REGEXP '^A';
+  
+  -- Words containing numbers
+  SELECT product_name FROM products WHERE product_name REGEXP '[0-9]';
+  
+  -- Multiple patterns using |
+  SELECT city FROM addresses WHERE city REGEXP 'New York|London|Paris';
+  
+  -- Numeric functions: ROUND, CEIL, FLOOR
+    1. COALESCE: Returns first non-null value in a list
+    ```sql
+    -- Basic COALESCE usage
+    SELECT COALESCE(column1, column2, 'default_value') FROM table_name;
+    
+    -- Practical example with employee bonus
+    SELECT employee_name,
+           COALESCE(bonus, commission, base_salary * 0.1) as final_bonus
+    FROM employees;
+  ```
+  - Date functions: 
+    1. DATEADD/DATE_ADD: Add interval to date
+    ```sql
+    -- Add 5 days to current date
+    SELECT DATE_ADD(CURRENT_DATE, INTERVAL 5 DAY);
+    -- Add 2 months to a date
+    SELECT DATE_ADD('2023-01-01', INTERVAL 2 MONTH);
+  ```
+  - Aggregate functions: COUNT, SUM, AVG, MAX, MIN
 
 ### Intermediate Interview Questions
 
